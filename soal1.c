@@ -80,7 +80,7 @@ int pembanding(Artefak data1, Artefak data2) {
     }
     // nama naik
     else {
-        return (strcmp(data1.nama, data2.nama));
+        return (strcmp(data1.nama, data2.nama) > 0);
     }
 }
 
